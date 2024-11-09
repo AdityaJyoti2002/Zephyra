@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    /* background-color: #181818; */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login-container {
+    background-color: #000000;
+    /* opacity: 0.5; */
+    /* z-index: -1; */
+    padding: 2rem;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 1rem;
+    font-family: "Koh Santepheap";
+
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    font-family: "Kurale";
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 2rem;
+
+    border-bottom: 2px solid white;
+    border-radius: 4px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.forgot-password {
+    display: block;
+    text-align: left;
+    font-size: 0.9rem;
+    color: #9a9a9a;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    font-family: "Ovo";
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.75rem;
+    background: linear-gradient(to right, #FF1EBB, #E448D0, #AE5CDE, #961FFF, #407AE0, #36B4E1, #04F7FF);
+    border: none;
+    border-radius: 400px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Kode Mono', monospace;
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: background 0.3s ease;
+}
+
+.login-button:hover {
+    background: linear-gradient(to left,#FF1EBB, #E448D0, #AE5CDE, #961FFF, #407AE0, #36B4E1, #04F7FF  );
+}
+
+.separator {
+    margin: 1rem 0;
+    color: #9a9a9a;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-radius: 400px;
+    font-family: 'Kode Mono', monospace;
+}
+
+.social-button img {
+    width: 25px;
+    height: 25px;
+    /* font-size: 40px; */
+    margin-right: 8px;
+    border-radius: 40px;
+    
+}
+
+.google {
+    background-color: #ffffff;
+    color: #444444;
+}
+
+.facebook {
+    background-color: #1877f2;
+    color: #ffffff;
+}
+
+.signup {
+    font-size: 0.9rem;
+    color: #9a9a9a;
+}
+
+.signup a {
+    color: #6BE1EE;
+    text-decoration: none;
+    font-family: 'Adamina', serif;
+}

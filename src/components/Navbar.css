@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+.navbar{
+   
+
+    display: flex;
+    align-items: left;
+  width: 100%;
+  position: absolute;  /* Stick to the bottom */
+  bottom: 0;
+  left: 0;
+  top: 2px;
+
+}
+/* h2{
+display:inline-block;
+color: white;
+
+} */
+ul {
+    margin-left: auto;
+    list-style: none;
+    display: flex; 
+  
+}
+
+li {
+    margin: 12px;
+    font-family: "Koh Santepheap";
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
