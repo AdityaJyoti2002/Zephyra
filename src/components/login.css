@@ -13,15 +13,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0;
-    background-image: url("1.png");
+    /* background-image: url("1.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
 }
 
-.login-container {
+.logincontainer {
     background-color: #000000;
     /* opacity: 0.5; */
     /* z-index: -1; */
@@ -30,6 +30,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     text-align: center;
+    
 }
 
 h2 {
@@ -60,7 +61,7 @@ input[type="password"] {
     font-size: 16px;
 }
 
-.forgot-password {
+.forgotpassword {
     display: block;
     text-align: left;
     font-size: 0.9rem;
@@ -70,7 +71,7 @@ input[type="password"] {
     font-family: "Ovo";
 }
 
-.login-button {
+.loginbutton {
     width: 100%;
     padding: 0.75rem;
     background: linear-gradient(to right, #FF1EBB, #E448D0, #AE5CDE, #961FFF, #407AE0, #36B4E1, #04F7FF);
@@ -85,7 +86,7 @@ input[type="password"] {
     transition: background 0.3s ease;
 }
 
-.login-button:hover {
+.loginbutton:hover {
     background: linear-gradient(to left,#FF1EBB, #E448D0, #AE5CDE, #961FFF, #407AE0, #36B4E1, #04F7FF  );
 }
 
@@ -94,7 +95,7 @@ input[type="password"] {
     color: #9a9a9a;
 }
 
-.social-button {
+.socialbutton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,7 +111,7 @@ input[type="password"] {
     font-family: 'Kode Mono', monospace;
 }
 
-.social-button img {
+.socialbutton img {
     width: 25px;
     height: 25px;
     /* font-size: 40px; */

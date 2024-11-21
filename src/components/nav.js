@@ -7,7 +7,7 @@ function Navbar() {
     <div className='navbar'>
 {/*  
    <h2>METAVERSE</h2> */}
-    <ul>
+    <ul className='bav'>
         <li>Home</li>
         <li>About Us</li>
         <li>Pricing</li>

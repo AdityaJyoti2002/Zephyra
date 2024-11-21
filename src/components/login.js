@@ -2,15 +2,14 @@ import React from 'react';
 import './login.css';
 import google from "./image 7.png";
 import facebook from "./image 6.png";
+import { useNavigate, Link} from 'react-router-dom';
 
 
 const Login = () => {
     return (
         
             
-              
-                
-        <div className="login-container">
+        <div className="logincontainer">
             
             
             <h2>Login</h2>
@@ -21,20 +20,20 @@ const Login = () => {
                 <label htmlFor="password">Password</label>
                 <input type="password" id="password" required />
                 
-                <a href="#" className="forgot-password">Forgotten your password?</a>
+                <a href="#" className="forgotpassword">Forgotten your password?</a>
                 
-                <button type="submit" className="login-button">Login</button>
+                <button type="submit" className="loginbutton">Login</button>
                 
                 <div className="separator">or</div>
                 
-                <button type="button" className="social-button google">
+                <button type="button" className="socialbutton google">
                 <img src={google} alt="Google Logo" />
 
                     
                     Continue with Google
                 </button>
                 
-                <button type="button" className="social-button facebook">
+                <button type="button" className="socialbutton facebook">
                     <img src={facebook} alt="Facebook Logo" />
                     Continue with Facebook
                 </button>

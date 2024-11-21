@@ -17,14 +17,14 @@ display:inline-block;
 color: white;
 
 } */
-ul {
+.bav {
     margin-left: auto;
     list-style: none;
     display: flex; 
   
 }
 
-li {
+.bav li {
     margin: 12px;
     font-family: "Koh Santepheap";
     font-size: 20px;
